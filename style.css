@@ -1,0 +1,13 @@
+.head{
+    background-image:url(./images/plan-ss-gimped.png);
+    background-size: cover;
+    height: 530px;
+    display: flex;
+    
+}
+
+.head>img{
+    height: 180px;
+    margin: 40px;
+    
+}
