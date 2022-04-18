@@ -1,13 +1,311 @@
-.head{
+body{
+    font-family: sans-serif;
+}
+
+header{
     background-image:url(./images/plan-ss-gimped.png);
     background-size: cover;
-    height: 530px;
+    height: 750px;
+    /* width: 1000px; */
+}
+
+.head{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .head>img{
-    height: 180px;
-    margin: 40px;
-    
+    height: 300px;
+    margin: 50px;
+}
+
+.head>ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-right: 300px;
+    height: 50px;
+}
+
+.head>ul>li{
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.head>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.head>ul>li>a:hover{
+    text-decoration: underline ;
+}
+
+.header{
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.bold{
+    display: flex;
+    justify-content: end;
+}
+
+.bold>h2{
+    font-size: 400%;
+    letter-spacing: -.02em;
+    font-family:sans-serif ;
+    margin-right: 260px;
+}
+
+.text-item1,.text-item2{
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.text-item1>item1,item2,.text-item2>item3,item4{
+    width: 380px;
+    margin-right: 50px;
+    font-size: 150%;
+    border-top: 1px solid black ;
+}
+
+item1>h3,item2>h3,item3>h3,item4>h3{
+    letter-spacing: -.05em;
+    font-weight: 500;
+}
+
+item1>p,item2>p,item3>p,item4>p{
+    color: grey;
+}
+
+.clrbox>.black{
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 650px;
+    width: 550px;
+    color: white;
+}
+
+.black>h2{
+    font-size: 50px;
+      padding: 75px 100px 0px 50px;
+}
+
+.black>p{
+    font-size: 23px;
+    margin-top: 150px;
+    padding: 50px;
+    width: 400px;
+}
+
+.black>a{
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    font-size: 25px;
+    border: 2px white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.black>a:hover{
+    background-color: white;
+    color: black;
+}
+
+.clrbox{
+    display: flex;
+    margin-top: 50px;
+}
+
+.plane{
+    background-image: url(./images/bgplane.avif);
+    background-size: cover;
+    height: 650px;
+    width: 550px;
+    color: white;
+    opacity: 100%;
+}
+
+.plane>h1{
+  margin-top: 500px;
+  font-size: 50px;
+  padding-left: 50px;
+}
+
+.plane>p{
+    font-size: 20px;
+    padding-left: 50px;
+    width: 300px;
+}
+
+.rust{
+    height: 650px;
+    width: 550px;
+    color: white;
+    background-color: rgb(244, 106, 96);
+}
+
+.rust>h1{
+    margin-top: 450px;
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.rust>p{
+    font-size: 20px;
+    padding-left: 50px;
+    width: 300px;
+}
+
+.pd{
+    font-size: 50px ;
+    letter-spacing: -.02em;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+popular{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+popular>img{
+    margin-left: 100px;
+    border-bottom-right-radius: 50px ;
+}
+
+destinations{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.barcelona,.ibiza,.cannes,.paris{
+    margin-left: 50px;
+    width: 250px;
+    border: 2px black;
+}
+
+destinations h2{
+    font-size: 30px;
+    font-weight: 80;
+}
+
+.barcelona>p,.ibiza>p,.cannes>p,.paris>p{
+    margin-top: 175px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.fm{
+    display: flex;
+    background-color: black;
+    margin-top: 150px;
+}
+
+.flight{
+    background-color: rgb(2, 2, 37);
+    color: white;
+}
+
+.image{
+    width: 800px;
+}
+
+.flight{
+    width: 800px;
+}
+
+.flight>h1{
+    font-size: 70px;
+    letter-spacing: -.06em;
+    margin-left: 50px;
+}
+
+.flight>p{
+    margin-top: 400px;
+    font-size: 25px;
+   padding: 65px;
+}
+
+.large{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 400px;
+    margin-left: 67px;
+}
+
+.large>h1{
+    font-size: 200px;
+    word-spacing: 0%;
+}
+
+.twopara{
+    display: flex;
+}
+
+.twopara>div>p{
+    width: 400px;
+    font-size: 20px;
+    margin-left: 67px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+}
+
+list1,list2,list3,list4,list5,list6{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+button{
+    background: #000;
+    border-radius:40px ;
+    height: 50px;
+    margin-left: 50px;
+}
+
+button>a{
+   
+    color: white;
+    font-size: 20px;
+   padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.seat{
+    margin-top: 100px;
+}
+
+.hh>h3{
+    color: gray;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 250px;
+}
+
+.hh>h1{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.hh>h1:hover{
+    text-decoration: underline 2px;
+}
+
+.last{
+    height: 800px;
+    background-color: #000;
+    margin-top: 250px;
 }
