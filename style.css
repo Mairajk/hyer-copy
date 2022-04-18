@@ -308,4 +308,10 @@ button>a{
     height: 800px;
     background-color: #000;
     margin-top: 250px;
+    color: white
+}
+
+.last>h1{
+    padding: 50px;
+    font-size: 50px;
 }
